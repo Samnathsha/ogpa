@@ -37,4 +37,4 @@ function calculateOGPA() {
 
   const ogpa = (totalPoints / totalCredits).toFixed(2);
   document.getElementById('result').innerText = 'Your OGPA (out of 10) is: ' + ogpa;
-}
+} 
